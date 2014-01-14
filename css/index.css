@@ -1,0 +1,107 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FFFFFF;
+    background-image:linear-gradient(top, #CCC 0%, #FFFFFF 51%);
+    background-image:-webkit-linear-gradient(top, #CCC 0%, #FFFFFF 51%);
+    background-image:-ms-linear-gradient(top, #CCC 0%, #FFFFFF 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #CCC),
+        color-stop(0.51, #FFFFFF)
+    );
+    background-attachment:fixed;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+/* header */
+.ui-header > .ui-btn {
+    padding: 7px 10px 11px;
+    background:none;
+    border:none;
+    /*overflow:;*/
+}
+.ui-header .ui-title{
+
+margin: .8em 30% .8em;
+
+}
+
+/* home page */
+
+#logo{
+    width:70%;
+    max-width:206px;
+    margin:35px 0 40px;
+}
+.centerText{
+    text-align:center;
+}
+
+#home-page a{
+    margin-top:20px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+.ui-grid-a .ui-block-a .ui-btn{
+    margin-left: 0px;
+}
+
+.ui-grid-a .ui-block-b .ui-btn{
+    margin-right: 0px;
+}
+
+/* map */
+#second-page{
+   
+}
+.big-text{
+    font-size: 1.3em;
+}
+.small-text{
+    font-size:0.8em;
+}
+
+
+.ui-btn-active {
+    border: 1px solid       #1abc9c /*{global-active-border}*/;
+    background:             #1abc9c /*{global-active-background-color}*/;
+    font-weight: bold;
+    color:                  #ffffff /*{global-active-color}*/;
+    cursor: pointer;
+    text-decoration: none;
+  font-family: Lato, sans-serif
+}
+
+
+.ui-icon-ms-phone {
+    background: url("../img/phone-icon.png") 50% 50% no-repeat;
+}
+.ui-icon-ms-question {
+    background: url("../img/question-icon.png") 50% 50% no-repeat;
+}
+.ui-icon-ms-search {
+    background: url("../img/search-icon.png") 50% 50% no-repeat;
+}
